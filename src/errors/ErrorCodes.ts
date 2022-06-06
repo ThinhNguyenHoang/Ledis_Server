@@ -1,0 +1,13 @@
+const errorCodes = {
+    BAD_REQUEST: 400,
+    NOT_FOUND: 404,
+    COMMAND_NOT_FOUND: 405,
+    INVALID_COMMAND_PARAMETER: 406,
+    KEY_NOT_FOUND: 407,
+    INTERNAL_SERVER: 500,
+    CANT_LOAD_SNAP_SHOT: 501,
+    CANT_SAVE_SNAP_SHOT: 502,
+}
+
+
+export default errorCodes;
